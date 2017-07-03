@@ -6,6 +6,9 @@ h1{
   padding: 10px;
   text-align: center;
 }
+textarea {
+resize: none;
+}
 #myinput{
 position: relative;
 margin-left: 25%;
@@ -14,6 +17,10 @@ width:50%;
 }
 .notdone{
   margin-top: 10px;
+  margin-left: 10px;
+}
+.edit{
+  margin-bottom: 10px;
   margin-left: 10px;
 }
 .trash{
@@ -38,6 +45,17 @@ width:50%;
   box-shadow: 10px 10px 5px #888888;
 }
 .content{
-padding: 20px;
+padding-left:40px;
+padding-right: 40px;
+padding-bottom: 40px;
+border: 0px;
+outline:none;
 width: 100%;
+}
+.done-image{
+  width: 25%;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  visibility:hidden;
 }
