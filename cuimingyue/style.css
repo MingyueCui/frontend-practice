@@ -1,0 +1,40 @@
+body{
+  background-color: rgba(128, 128, 128, 0.48);
+}
+h1{
+  margin-top:5%;
+  padding: 10px;
+  text-align: center;
+}
+#myinput{
+position: relative;
+margin-left: 25%;
+height:6%;
+width:50%;
+}
+#notdone{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#trash{
+  position: relative;;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box{
+  position: relative;
+  background-color: white;
+  float: left;
+  margin-top:20px;
+  width:16%;
+  height:auto;
+  margin-left: 5%;
+}
+.box:hover{
+  box-shadow: 10px 10px 5px #888888;
+}
+.content{
+padding: 20px;
+width: 100%;
+}
