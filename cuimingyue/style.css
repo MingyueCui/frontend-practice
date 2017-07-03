@@ -12,15 +12,18 @@ margin-left: 25%;
 height:6%;
 width:50%;
 }
-#notdone{
+.notdone{
   margin-top: 10px;
   margin-left: 10px;
 }
-#trash{
+.trash{
   position: relative;;
   float: right;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+.boxs{
+  margin-top: 20px;
 }
 .box{
   position: relative;
